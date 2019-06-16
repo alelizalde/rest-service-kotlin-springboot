@@ -5,7 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 import java.util.concurrent.atomic.AtomicLong
-import popcornbyte.com.GreetingsFromJava
+
+/*
+author: Al Elizalde
+date: June 15 2019
+web site: http://popcornbyte.com
+*/
 
 @RestController
 class GreetingController {
