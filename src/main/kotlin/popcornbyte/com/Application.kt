@@ -13,6 +13,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 class Application
 
 //To run the application ./gradlew bootRun
-fun main(args: Array<String>) {
-    SpringApplication.run(Application::class.java, *args)
+fun main() {
+    SpringApplication.run(Application::class.java)
 }
